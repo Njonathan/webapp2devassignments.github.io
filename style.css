@@ -1,0 +1,97 @@
+body {
+    font: 15px arial, sans-serif;
+    color: #808080;
+    background-color: #ade6e2;
+}
+
+/* style for top and topnav classes found in the header sections of the webpages*/
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+	padding: 14px 16px;
+}
+a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.active {
+    background-color: #CCCCCC;
+    color: #333
+}
+
+
+.topnav {
+    position: relative;
+    z-index: 2;
+    font-size: 17px;
+    background-color: #5f5f5f;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0;
+    letter-spacing: 1px;
+}
+
+/*Styling footer section which is found at the bottom of each webpage*/
+footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #adcee6;
+    text-align: center;
+}
+{
+        box-sizing: border-box;
+    }
+    /* Set additional styling options for the columns*/
+    .column {
+    float: left;
+    width: 33%;
+    }
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+/*Styling images found in each webpage*/
+.computingimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.tabletimage {
+  width: 50%;
+  heigh: 50%;
+}
+
+.smartphoneimage {
+  width: 50%;
+  heigh: 50%;
+}
+
+.productimagetop {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+.productimage {
+	width: 50%;
+}
